@@ -31,7 +31,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            components = new System.ComponentModel.Container();
             btnClientes = new Button();
             btnTecnicos = new Button();
             SuspendLayout();
@@ -40,7 +39,7 @@
             // 
             btnClientes.Location = new Point(30, 30);
             btnClientes.Name = "btnClientes";
-            btnClientes.Size = new Size(120, 30);
+            btnClientes.Size = new Size(120, 50);
             btnClientes.TabIndex = 0;
             btnClientes.Text = "Clientes";
             btnClientes.UseVisualStyleBackColor = true;
@@ -48,9 +47,9 @@
             // 
             // btnTecnicos
             // 
-            btnTecnicos.Location = new Point(30, 70);
+            btnTecnicos.Location = new Point(30, 86);
             btnTecnicos.Name = "btnTecnicos";
-            btnTecnicos.Size = new Size(120, 30);
+            btnTecnicos.Size = new Size(120, 45);
             btnTecnicos.TabIndex = 1;
             btnTecnicos.Text = "Técnicos";
             btnTecnicos.UseVisualStyleBackColor = true;
@@ -58,6 +57,7 @@
             // 
             // Form1
             // 
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(btnClientes);

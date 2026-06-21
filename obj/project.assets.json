@@ -8,19 +8,19 @@
     "net10.0-windows": []
   },
   "packageFolders": {
-    "C:\\Users\\santi\\.nuget\\packages\\": {}
+    "C:\\Users\\tobiv\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\progra1\\soporte_tecnico\\soporte_tecnico.csproj",
+      "projectUniqueName": "C:\\Soporte Tecnico\\soporte_tecnico\\soporte_tecnico.csproj",
       "projectName": "soporte_tecnico",
-      "projectPath": "C:\\progra1\\soporte_tecnico\\soporte_tecnico.csproj",
-      "packagesPath": "C:\\Users\\santi\\.nuget\\packages\\",
-      "outputPath": "C:\\progra1\\soporte_tecnico\\obj\\",
+      "projectPath": "C:\\Soporte Tecnico\\soporte_tecnico\\soporte_tecnico.csproj",
+      "packagesPath": "C:\\Users\\tobiv\\.nuget\\packages\\",
+      "outputPath": "C:\\Soporte Tecnico\\soporte_tecnico\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\santi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tobiv\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -72,7 +72,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.301/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.CSharp": "(,4.7.32767]",
           "Microsoft.VisualBasic": "(,10.4.32767]",

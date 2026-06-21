@@ -1,53 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\progra1\\soporte_tecnico\\",
+  "WorkspaceRootPath": "C:\\Soporte Tecnico\\soporte_tecnico\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\frmtecnico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:models\\tecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\controllers\\ntecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\frmtecnico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmcliente.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\controllers\\ntecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:controllers\\ntecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmtecnico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|C:\\progra1\\soporte_tecnico\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|C:\\Soporte Tecnico\\soporte_tecnico\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\soporte_tecnico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\soporte_tecnico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:soporte_tecnico.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\progra1\\soporte_tecnico\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|c:\\soporte tecnico\\soporte_tecnico\\forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0D9332C9-DA52-4D27-5AEB-E25839B04F65}|soporte_tecnico.csproj|solutionrelative:forms\\frmcliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -58,34 +58,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "frmTecnico.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmTecnico.cs",
               "RelativeDocumentMoniker": "forms\\frmTecnico.cs",
               "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.cs [Dise\u00F1o]",
-              "RelativeToolTip": "forms\\frmTecnico.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\progra1\\soporte_tecnico\\forms\\frmTecnico.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T17:47:35.814Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "frmTecnico.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmTecnico.cs",
               "RelativeDocumentMoniker": "forms\\frmTecnico.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmTecnico.cs",
               "RelativeToolTip": "forms\\frmTecnico.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAiwBUAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T03:36:09.245Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
             },
             {
               "$type": "Bookmark",
@@ -103,61 +105,87 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "frmTecnico.Designer.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.Designer.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmTecnico.Designer.cs",
               "RelativeDocumentMoniker": "forms\\frmTecnico.Designer.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\frmTecnico.Designer.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmTecnico.Designer.cs",
               "RelativeToolTip": "forms\\frmTecnico.Designer.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCYAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAwwJ8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-19T17:46:10.988Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "nTecnico.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\controllers\\nTecnico.cs",
-              "RelativeDocumentMoniker": "controllers\\nTecnico.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\controllers\\nTecnico.cs",
-              "RelativeToolTip": "controllers\\nTecnico.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Tecnico.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\models\\Tecnico.cs",
+              "RelativeDocumentMoniker": "models\\Tecnico.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\models\\Tecnico.cs",
+              "RelativeToolTip": "models\\Tecnico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T23:51:19.715Z",
+              "WhenOpened": "2026-06-15T23:48:07.531Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "frmCliente.Designer.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\frmCliente.Designer.cs",
-              "RelativeDocumentMoniker": "forms\\frmCliente.Designer.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\frmCliente.Designer.cs",
-              "RelativeToolTip": "forms\\frmCliente.Designer.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowBoAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T16:30:59.709Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\Program.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\Program.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-16T01:02:20.378Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmCliente.Designer.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmCliente.Designer.cs",
+              "RelativeDocumentMoniker": "forms\\frmCliente.Designer.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmCliente.Designer.cs",
+              "RelativeToolTip": "forms\\frmCliente.Designer.cs",
+              "ViewState": "AgIAAIMAAAAAAAAAAAAwwKsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T16:30:59.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "forms\\Form1.Designer.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\Form1.Designer.cs",
+              "RelativeToolTip": "forms\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-19T16:21:30.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "nTecnico.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\controllers\\nTecnico.cs",
+              "RelativeDocumentMoniker": "controllers\\nTecnico.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\controllers\\nTecnico.cs",
+              "RelativeToolTip": "controllers\\nTecnico.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-15T23:51:19.715Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 10,
               "Title": "soporte_tecnico.csproj",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\soporte_tecnico.csproj",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\soporte_tecnico.csproj",
               "RelativeDocumentMoniker": "soporte_tecnico.csproj",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\soporte_tecnico.csproj",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\soporte_tecnico.csproj",
               "RelativeToolTip": "soporte_tecnico.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -165,24 +193,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "forms\\Form1.Designer.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\Form1.Designer.cs",
-              "RelativeToolTip": "forms\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T16:21:30.955Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
               "Title": "frmCliente.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\frmCliente.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmCliente.cs",
               "RelativeDocumentMoniker": "forms\\frmCliente.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\frmCliente.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\frmCliente.cs",
               "RelativeToolTip": "forms\\frmCliente.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -190,24 +205,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Tecnico.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\models\\Tecnico.cs",
-              "RelativeDocumentMoniker": "models\\Tecnico.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\models\\Tecnico.cs",
-              "RelativeToolTip": "models\\Tecnico.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-15T23:48:07.531Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 8,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\Form1.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\Form1.cs",
               "RelativeDocumentMoniker": "forms\\Form1.cs",
-              "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\Form1.cs",
+              "ToolTip": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\Form1.cs",
               "RelativeToolTip": "forms\\Form1.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -218,13 +220,12 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\progra1\\soporte_tecnico\\forms\\Form1.cs",
+              "DocumentMoniker": "C:\\Soporte Tecnico\\soporte_tecnico\\forms\\Form1.cs",
               "RelativeDocumentMoniker": "forms\\Form1.cs",
               "ToolTip": "C:\\progra1\\soporte_tecnico\\forms\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "forms\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\progra1\\soporte_tecnico\\forms\\Form1.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-19T16:40:15.332Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2026-06-19T16:40:15.332Z"
             }
           ]
         }

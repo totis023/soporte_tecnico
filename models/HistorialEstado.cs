@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace soporte_tecnico.models
+{
+    internal class HistorialEstado
+    {
+        public DateTime Fecha { get; set; }
+        public string EstadoAnterior { get; set; }
+        public string EstadoNuevo { get; set; }
+
+        public HistorialEstado(DateTime fecha, string estadoAnterior, string estadoNuevo)
+        {
+            Fecha = fecha;
+            EstadoAnterior = estadoAnterior;
+            EstadoNuevo = estadoNuevo;
+        }
+    }
+}
