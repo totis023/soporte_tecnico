@@ -1,0 +1,14 @@
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\bin\Debug\net10.0\sistema_soporte_tecnico.exe
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\bin\Debug\net10.0\sistema_soporte_tecnico.deps.json
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\bin\Debug\net10.0\sistema_soporte_tecnico.runtimeconfig.json
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\bin\Debug\net10.0\sistema_soporte_tecnico.dll
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\bin\Debug\net10.0\sistema_soporte_tecnico.pdb
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.GeneratedMSBuildEditorConfig.editorconfig
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.AssemblyInfoInputs.cache
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.AssemblyInfo.cs
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.csproj.CoreCompileInputs.cache
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.dll
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\refint\sistema_soporte_tecnico.dll
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.pdb
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\sistema_soporte_tecnico.genruntimeconfig.cache
+C:\progra1\soporte_tecnico\sistema_soporte_tecnico\obj\Debug\net10.0\ref\sistema_soporte_tecnico.dll
