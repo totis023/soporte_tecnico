@@ -81,11 +81,22 @@ namespace soporte_tecnico.forms
             {
                 DataGridViewRow fila = dataGridView1.Rows[e.RowIndex];
 
-                // pasamos los datos de la fila seleccionada a los TextBox y guardamos el ID
-                idSeleccionado = Convert.ToInt32(fila.Cells["Id"].Value);
-                txtNombre.Text = fila.Cells["Nombre"].Value.ToString();
-                txtTelefono.Text = fila.Cells["Telefono"].Value.ToString();
-                txtEmail.Text = fila.Cells["Email"].Value.ToString();
+                // Cambiado: Leemos el objeto Cliente directamente de la fila de forma segura
+                if (fila.DataBoundItem is soporte_tecnico.models.Cliente cliente)
+                {
+                    idSeleccionado = cliente.Id;
+                    txtNombre.Text = cliente.Nombre ?? string.Empty;
+                    txtTelefono.Text = cliente.Telefono ?? string.Empty;
+                    txtEmail.Text = cliente.Email ?? string.Empty;
+                }
+                else
+                {
+                    // Alternativa por si las columnas se crearon manualmente sin DataBoundItem
+                    idSeleccionado = Convert.ToInt32(fila.Cells[0].Value);
+                    txtNombre.Text = fila.Cells[1].Value?.ToString() ?? string.Empty;
+                    txtTelefono.Text = fila.Cells[2].Value?.ToString() ?? string.Empty;
+                    txtEmail.Text = fila.Cells[3].Value?.ToString() ?? string.Empty;
+                }
             }
         }
         private void LimpiarFormulario()
@@ -99,7 +110,9 @@ namespace soporte_tecnico.forms
         private void ActualizarGrid()
         {
             dataGridView1.DataSource = null;
-            dataGridView1.DataSource = controladorCliente.ObtenerTodos();
+            dataGridView1.DataSource = new System.ComponentModel.BindingList<soporte_tecnico.models.Cliente>(lista);
+
+            dataGridView1.ClearSelection();
         }
 
         private void txtTelefono_TextChanged(object sender, EventArgs e)
