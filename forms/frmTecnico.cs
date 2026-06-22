@@ -19,6 +19,34 @@ namespace soporte_tecnico.forms
             InitializeComponent();
             controlador = new nTecnico(); //crear el controlador que vamos a usar para agregar/modificar/borrar
             ActualizarGrilla();
+            this.Resize += FrmTecnico_Resize;
+            CenterButtons();
+        }
+
+        private void FrmTecnico_Resize(object? sender, EventArgs e)
+        {
+            CenterButtons();
+        }
+
+        private void CenterButtons()
+        {
+            try
+            {
+                int spacing = 20;
+                int w1 = btnAgregar.Width;
+                int w2 = btnModificar.Width;
+                int w3 = btnEliminar.Width;
+                int total = w1 + w2 + w3 + spacing * 2;
+                int startX = Math.Max(10, (this.ClientSize.Width - total) / 2);
+                int top = btnAgregar.Top;
+                btnAgregar.Left = startX;
+                btnModificar.Left = startX + w1 + spacing;
+                btnEliminar.Left = startX + w1 + spacing + w2 + spacing;
+                btnAgregar.Top = top;
+                btnModificar.Top = top;
+                btnEliminar.Top = top;
+            }
+            catch { }
         }
 
         //cuando cambia la seleccion, tomamos el tecnico seleccionado y mostramos sus datos
@@ -56,6 +84,28 @@ namespace soporte_tecnico.forms
             var lista = controlador.ObtenerTodos();
             dgvTecnicos.DataSource = null;
             dgvTecnicos.DataSource = new System.ComponentModel.BindingList<soporte_tecnico.models.Tecnico>(lista);
+
+            // Ajustar tamaños de columnas: id y columnas de la izquierda más pequeñas, email ocupa el espacio restante
+            dgvTecnicos.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            if (dgvTecnicos.Columns.Count > 0)
+            {
+                if (dgvTecnicos.Columns.Contains("Id"))
+                {
+                    dgvTecnicos.Columns["Id"].Width = 40;
+                    dgvTecnicos.Columns["Id"].Resizable = DataGridViewTriState.False;
+                }
+                if (dgvTecnicos.Columns.Contains("Nombre"))
+                    dgvTecnicos.Columns["Nombre"].Width = 120; // achicar un poco
+                if (dgvTecnicos.Columns.Contains("Especialidad"))
+                    dgvTecnicos.Columns["Especialidad"].Width = 220; // aumentar para mostrar la especialidad completa
+                if (dgvTecnicos.Columns.Contains("Email"))
+                    dgvTecnicos.Columns["Email"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill; // agrandar el email
+                foreach (DataGridViewColumn c in dgvTecnicos.Columns)
+                {
+                    if (c.Name != "Email" && c.Name != "Id" && c.Name != "Nombre" && c.Name != "Especialidad")
+                        c.AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                }
+            }
 
             dgvTecnicos.ClearSelection();
         }

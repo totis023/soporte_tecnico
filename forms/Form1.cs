@@ -19,6 +19,35 @@ namespace soporte_tecnico
         public Form1()
         {
             InitializeComponent();
+            // centrar controles inicialmente y al redimensionar
+            CenterMainControls();
+            this.Resize += (s, e) => CenterMainControls();
+        }
+
+        private void CenterMainControls()
+        {
+            try
+            {
+                // controles a centrar
+                var ctrls = new Control[] { label1, btnClientes, btnTecnicos, btnPedidos, btnSeguimiento, btnReportes };
+                // calcular limites actuales del grupo
+                int minTop = ctrls.Min(c => c.Top);
+                int maxBottom = ctrls.Max(c => c.Bottom);
+                int groupHeight = maxBottom - minTop;
+
+                int startTop = Math.Max(10, (this.ClientSize.Height - groupHeight) / 2);
+
+                foreach (var c in ctrls)
+                {
+                    int offset = c.Top - minTop;
+                    c.Top = startTop + offset;
+                    c.Left = Math.Max(10, (this.ClientSize.Width - c.Width) / 2);
+                }
+            }
+            catch
+            {
+                // ignorar errores de centrado
+            }
         }
 
 

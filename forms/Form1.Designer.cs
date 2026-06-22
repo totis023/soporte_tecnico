@@ -43,6 +43,7 @@
             btnClientes.BackColor = Color.LightBlue;
             btnClientes.FlatStyle = FlatStyle.Flat;
             btnClientes.FlatAppearance.BorderSize = 0;
+            btnClientes.Anchor = AnchorStyles.Top;
             btnClientes.Cursor = Cursors.Hand;
             btnClientes.Click += btnClientes_Click;
             // 
@@ -58,6 +59,7 @@
             btnTecnicos.BackColor = Color.LightBlue;
             btnTecnicos.FlatStyle = FlatStyle.Flat;
             btnTecnicos.FlatAppearance.BorderSize = 0;
+            btnTecnicos.Anchor = AnchorStyles.Top;
             btnTecnicos.Cursor = Cursors.Hand;
             btnTecnicos.Click += btnTecnicos_Click;
             // 
@@ -73,6 +75,7 @@
             btnSeguimiento.BackColor = Color.LightBlue;
             btnSeguimiento.FlatStyle = FlatStyle.Flat;
             btnSeguimiento.FlatAppearance.BorderSize = 0;
+            btnSeguimiento.Anchor = AnchorStyles.Top;
             btnSeguimiento.Cursor = Cursors.Hand;
             btnSeguimiento.Click += btnSeguimiento_Click;
             // 
@@ -88,6 +91,7 @@
             btnReportes.BackColor = Color.LightBlue;
             btnReportes.FlatStyle = FlatStyle.Flat;
             btnReportes.FlatAppearance.BorderSize = 0;
+            btnReportes.Anchor = AnchorStyles.Top;
             btnReportes.Cursor = Cursors.Hand;
             btnReportes.Click += btnReportes_Click;
             // 
@@ -101,6 +105,7 @@
             label1.TabIndex = 4;
             label1.Text = "Soporte Técnico";
             label1.TextAlign = ContentAlignment.MiddleCenter;
+            label1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
             // 
             // btnPedidos
             // 

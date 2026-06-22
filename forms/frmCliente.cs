@@ -23,6 +23,40 @@ namespace soporte_tecnico.forms
             dataGridView1.AllowUserToAddRows = false;
 
             ActualizarGrid(); //para que mustre si hay datos para arrancar
+            // centrar botones cuando se redimensiona la ventana
+            this.Resize += FrmCliente_Resize;
+            CenterButtons();
+        }
+
+        private void FrmCliente_Resize(object? sender, EventArgs e)
+        {
+            CenterButtons();
+        }
+
+        private void CenterButtons()
+        {
+            try
+            {
+                int spacing = 20; // espacio entre botones
+                int w1 = button1.Width;
+                int w2 = button2.Width;
+                int w3 = button3.Width;
+                int total = w1 + w2 + w3 + spacing * 2;
+                int startX = Math.Max(10, (this.ClientSize.Width - total) / 2);
+                int y = Math.Max( (this.ClientSize.Height - 40), button1.Top);
+                // mantener la distancia vertical original si es posible
+                int top = button1.Top;
+                button1.Left = startX;
+                button1.Top = top;
+                button2.Left = startX + w1 + spacing;
+                button2.Top = top;
+                button3.Left = startX + w1 + spacing + w2 + spacing;
+                button3.Top = top;
+            }
+            catch
+            {
+                // ignorar errores de posicionamiento
+            }
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -156,6 +190,31 @@ namespace soporte_tecnico.forms
             var lista = controladorCliente.ObtenerTodos();
             dataGridView1.DataSource = null;
             dataGridView1.DataSource = new System.ComponentModel.BindingList<soporte_tecnico.models.Cliente>(lista);
+
+            // Ajustar tamaños de columnas: id y columnas de la izquierda más pequeñas, email ocupa el espacio restante
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            if (dataGridView1.Columns.Count > 0)
+            {
+                // establecer anchos por nombre de columna cuando existan (más espacio para Email)
+                if (dataGridView1.Columns.Contains("Id"))
+                {
+                    dataGridView1.Columns["Id"].Width = 40;
+                    dataGridView1.Columns["Id"].Resizable = DataGridViewTriState.False;
+                }
+                if (dataGridView1.Columns.Contains("Nombre"))
+                    dataGridView1.Columns["Nombre"].Width = 120; // achicar un poco
+                if (dataGridView1.Columns.Contains("Telefono"))
+                    dataGridView1.Columns["Telefono"].Width = 100;
+                // dejar que Email ocupe el resto (agrandada al reducir otras columnas)
+                if (dataGridView1.Columns.Contains("Email"))
+                    dataGridView1.Columns["Email"].AutoSizeMode = DataGridViewAutoSizeColumnMode.Fill;
+                // columnas adicionales: si quedan, permitirles ajustar mínimo
+                foreach (DataGridViewColumn c in dataGridView1.Columns)
+                {
+                    if (c.Name != "Email" && c.Name != "Id" && c.Name != "Nombre" && c.Name != "Telefono")
+                        c.AutoSizeMode = DataGridViewAutoSizeColumnMode.DisplayedCells;
+                }
+            }
 
             dataGridView1.ClearSelection();
         }

@@ -78,6 +78,7 @@ namespace soporte_tecnico.forms
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(159, 23);
             txtNombre.TabIndex = 3;
+            txtNombre.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // txtTelefono
             // 
@@ -87,6 +88,7 @@ namespace soporte_tecnico.forms
             txtTelefono.Size = new Size(159, 23);
             txtTelefono.TabIndex = 4;
             txtTelefono.TextChanged += txtTelefono_TextChanged;
+            txtTelefono.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // txtEmail
             // 
@@ -95,6 +97,7 @@ namespace soporte_tecnico.forms
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(159, 23);
             txtEmail.TabIndex = 5;
+            txtEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // dataGridView1
             // 
@@ -106,6 +109,7 @@ namespace soporte_tecnico.forms
             dataGridView1.Size = new Size(443, 240);
             dataGridView1.TabIndex = 6;
             dataGridView1.CellClick += dataGridView1_CellClick;
+            dataGridView1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             // 
             // button1
             // 
@@ -121,6 +125,7 @@ namespace soporte_tecnico.forms
             button1.FlatAppearance.BorderSize = 0;
             button1.Cursor = Cursors.Hand;
             button1.Click += button1_Click;
+            button1.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // button2
             // 
@@ -136,6 +141,7 @@ namespace soporte_tecnico.forms
             button2.FlatAppearance.BorderSize = 0;
             button2.Cursor = Cursors.Hand;
             button2.Click += button2_Click;
+            button2.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // button3
             // 
@@ -151,6 +157,7 @@ namespace soporte_tecnico.forms
             button3.FlatAppearance.BorderSize = 0;
             button3.Cursor = Cursors.Hand;
             button3.Click += button3_Click;
+            button3.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // frmCliente
             // 

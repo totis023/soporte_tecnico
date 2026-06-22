@@ -36,7 +36,6 @@
             label1 = new Label();
             label2 = new Label();
             txtComentario = new TextBox();
-            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvSeguimiento).BeginInit();
             SuspendLayout();
             // 
@@ -84,6 +83,7 @@
             dgvSeguimiento.Size = new Size(1079, 540);
             dgvSeguimiento.TabIndex = 3;
             dgvSeguimiento.CellClick += dgvSeguimiento_CellClick;
+            dgvSeguimiento.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             // 
             // cmbEstado
             // 
@@ -123,28 +123,17 @@
             txtComentario.Name = "txtComentario";
             txtComentario.Size = new Size(908, 126);
             txtComentario.TabIndex = 7;
+            // ajustar al redimensionar: ocupar el ancho derecho disponible y quedar pegado al borde inferior
+            txtComentario.Anchor = AnchorStyles.Left | AnchorStyles.Right | AnchorStyles.Bottom;
             // 
-            // button2
+            // label2
             // 
-            button2.BackColor = Color.LightBlue;
-            button2.Cursor = Cursors.Hand;
-            button2.FlatAppearance.BorderSize = 0;
-            button2.FlatStyle = FlatStyle.Flat;
-            button2.Location = new Point(661, 1075);
-            button2.Margin = new Padding(4, 2, 4, 2);
-            button2.Name = "button2";
-            button2.Size = new Size(353, 47);
-            button2.TabIndex = 8;
-            button2.Text = "Guardar Cambios";
-            button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
-            // 
+            label2.Anchor = AnchorStyles.Left | AnchorStyles.Bottom;
             // frmSeguimiento
             // 
             AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1148, 838);
-            Controls.Add(button2);
             Controls.Add(txtComentario);
             Controls.Add(label2);
             Controls.Add(label1);
@@ -173,6 +162,5 @@
         private Label label1;
         private Label label2;
         private TextBox txtComentario;
-        private Button button2;
     }
 }

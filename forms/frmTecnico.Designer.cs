@@ -59,6 +59,7 @@ namespace soporte_tecnico.forms
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(194, 23);
             txtNombre.TabIndex = 0;
+            txtNombre.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // txtEspecialidad
             // 
@@ -66,6 +67,7 @@ namespace soporte_tecnico.forms
             txtEspecialidad.Name = "txtEspecialidad";
             txtEspecialidad.Size = new Size(194, 23);
             txtEspecialidad.TabIndex = 1;
+            txtEspecialidad.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // txtEmail
             // 
@@ -73,6 +75,8 @@ namespace soporte_tecnico.forms
             txtEmail.Name = "txtEmail";
             txtEmail.Size = new Size(194, 23);
             txtEmail.TabIndex = 2;
+            // mantener el mismo ancho que Nombre y Especialidad
+            txtEmail.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // btnAgregar
             // 
@@ -87,6 +91,7 @@ namespace soporte_tecnico.forms
             btnAgregar.FlatAppearance.BorderSize = 0;
             btnAgregar.Cursor = Cursors.Hand;
             btnAgregar.Click += btnAgregar_Click;
+            btnAgregar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // btnModificar
             // 
@@ -101,6 +106,7 @@ namespace soporte_tecnico.forms
             btnModificar.FlatAppearance.BorderSize = 0;
             btnModificar.Cursor = Cursors.Hand;
             btnModificar.Click += btnModificar_Click;
+            btnModificar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // btnEliminar
             // 
@@ -115,6 +121,7 @@ namespace soporte_tecnico.forms
             btnEliminar.FlatAppearance.BorderSize = 0;
             btnEliminar.Cursor = Cursors.Hand;
             btnEliminar.Click += btnEliminar_Click;
+            btnEliminar.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // dgvTecnicos
             // 
@@ -129,6 +136,7 @@ namespace soporte_tecnico.forms
             dgvTecnicos.Size = new Size(451, 281);
             dgvTecnicos.TabIndex = 6;
             dgvTecnicos.SelectionChanged += dgvTecnicos_SelectionChanged;
+            dgvTecnicos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             // 
             // label1
             // 

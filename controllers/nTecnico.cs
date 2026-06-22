@@ -65,21 +65,44 @@ namespace soporte_tecnico.controllers
 
         private void CargarDesdeArchivo()
         {
-            // Versión simplificada y clara de carga desde JSON
+            //version simplificada y clara de carga desde JSON
             try
             {
-                // Ruta fija solicitada por el usuario
-                string repoFile = Path.Combine("C:", "Soporte Tecnico", "soporte_tecnico", "data", "tecnicos.json");
+                //buscar el directorio 'data' subiendo desde el directorio de ejecucion hasta la raiz.
+                string? repoFile = null;
+                var start = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
+                var p = start;
+                for (int i = 0; i < 12 && p != null; i++)
+                {
+                    var candidateFile = Path.Combine(p.FullName, "data", "tecnicos.json");
+                    if (File.Exists(candidateFile))
+                    {
+                        repoFile = candidateFile;
+                        break;
+                    }
 
-                // Asegurar que exista el archivo (si no existe, crear uno vacío)
-                var dirRepo = Path.GetDirectoryName(repoFile);
-                if (!string.IsNullOrEmpty(dirRepo) && !Directory.Exists(dirRepo))
-                    Directory.CreateDirectory(dirRepo);
+                    var candidateDir = Path.Combine(p.FullName, "data");
+                    if (Directory.Exists(candidateDir))
+                    {
+                        repoFile = Path.Combine(candidateDir, "tecnicos.json");
+                        break;
+                    }
 
-                if (!File.Exists(repoFile))
-                    File.WriteAllText(repoFile, "[]");
+                    p = p.Parent;
+                }
 
-                // Leer el contenido y deserializar
+                //si no se encontro, usar dataPath (carpeta junto al ejecutable)
+                if (repoFile == null)
+                {
+                    repoFile = dataPath;
+                }
+
+                //asegurar que exista el directorio y el archivo; si no, crear archivo vacío
+                var dirRepo = Path.GetDirectoryName(repoFile) ?? AppDomain.CurrentDomain.BaseDirectory;
+                if (!Directory.Exists(dirRepo)) Directory.CreateDirectory(dirRepo);
+                if (!File.Exists(repoFile)) File.WriteAllText(repoFile, "[]");
+
+                //leer el contenido y deserializar
                 string json = File.ReadAllText(repoFile);
                 UltimoArchivoCargado = repoFile;
 
@@ -92,7 +115,7 @@ namespace soporte_tecnico.controllers
             }
             catch
             {
-                // en caso de error, inicializar lista vacía
+                //en caso de error, inicializar lista vacía
                 tecnicos = new List<Tecnico>();
                 proximoId = 1;
                 UltimoArchivoCargado = string.Empty;
@@ -112,7 +135,7 @@ namespace soporte_tecnico.controllers
             }
             catch
             {
-                // ignorar errores de escritura para no romper la app
+                //ignorar errores de escritura para no romper la app
             }
         }
     }

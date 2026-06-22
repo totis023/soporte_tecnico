@@ -33,7 +33,6 @@
             btnResueltos = new Button();
             btnTodos = new Button();
             dgvSeguimiento = new DataGridView();
-            btnExportar = new Button();
             ((System.ComponentModel.ISupportInitialize)dgvSeguimiento).BeginInit();
             SuspendLayout();
             // 
@@ -51,6 +50,7 @@
             btnPendientes.Text = "Pendientes";
             btnPendientes.UseVisualStyleBackColor = false;
             btnPendientes.Click += btnPendientes_Click;
+            btnPendientes.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // btnEnProceso
             // 
@@ -66,6 +66,7 @@
             btnEnProceso.Text = "En Proceso";
             btnEnProceso.UseVisualStyleBackColor = false;
             btnEnProceso.Click += btnEnProceso_Click;
+            btnEnProceso.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // btnResueltos
             // 
@@ -81,6 +82,7 @@
             btnResueltos.Text = "Resueltos";
             btnResueltos.UseVisualStyleBackColor = false;
             btnResueltos.Click += btnResueltos_Click;
+            btnResueltos.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // btnTodos
             // 
@@ -96,6 +98,7 @@
             btnTodos.Text = "Todos";
             btnTodos.UseVisualStyleBackColor = false;
             btnTodos.Click += btnTodos_Click;
+            btnTodos.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // dgvSeguimiento
             // 
@@ -106,28 +109,13 @@
             dgvSeguimiento.RowHeadersWidth = 82;
             dgvSeguimiento.Size = new Size(725, 270);
             dgvSeguimiento.TabIndex = 4;
-            // 
-            // btnExportar
-            // 
-            btnExportar.BackColor = Color.LightBlue;
-            btnExportar.Cursor = Cursors.Hand;
-            btnExportar.FlatAppearance.BorderSize = 0;
-            btnExportar.FlatStyle = FlatStyle.Flat;
-            btnExportar.Location = new Point(358, 325);
-            btnExportar.Margin = new Padding(2, 1, 2, 1);
-            btnExportar.Name = "btnExportar";
-            btnExportar.Size = new Size(81, 22);
-            btnExportar.TabIndex = 5;
-            btnExportar.Text = "Exportar";
-            btnExportar.UseVisualStyleBackColor = false;
-            btnExportar.Click += btnExportar_Click;
+            dgvSeguimiento.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             // 
             // frmReportes
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(803, 359);
-            Controls.Add(btnExportar);
             Controls.Add(dgvSeguimiento);
             Controls.Add(btnTodos);
             Controls.Add(btnResueltos);
@@ -148,6 +136,5 @@
         private Button btnResueltos;
         private Button btnTodos;
         private DataGridView dgvSeguimiento;
-        private Button btnExportar;
     }
 }

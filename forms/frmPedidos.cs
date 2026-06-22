@@ -21,12 +21,14 @@ namespace soporte_tecnico.forms
 
 
             this.Load += new EventHandler(frmPedidos_Load);
+            this.Resize += FrmPedidos_Resize;
         }
 
         private void frmPedidos_Load(object sender, EventArgs e)
         {
             CargarCombos();
             ActualizarGrid();
+            CenterButtonsUnderGrid();
         }
 
         private void CargarCombos()
@@ -40,6 +42,30 @@ namespace soporte_tecnico.forms
             cmbTecnicos.DisplayMember = "Nombre";
             cmbTecnicos.ValueMember = "Id";
             cmbEstados.DataSource = Enum.GetValues(typeof(Estado));
+        }
+
+        private void FrmPedidos_Resize(object? sender, EventArgs e)
+        {
+            CenterButtonsUnderGrid();
+        }
+
+        private void CenterButtonsUnderGrid()
+        {
+            try
+            {
+                int spacing = 20;
+                int w1 = btnCambiarEstado.Width;
+                int w2 = btnCrearPedido.Width;
+                int total = w1 + w2 + spacing;
+                int gridCenter = dgvPedidos.Left + dgvPedidos.Width / 2;
+                int startX = Math.Max(0, gridCenter - total / 2);
+                int top = dgvPedidos.Bottom + 8;
+                btnCambiarEstado.Left = startX;
+                btnCambiarEstado.Top = top;
+                btnCrearPedido.Left = startX + w1 + spacing;
+                btnCrearPedido.Top = top;
+            }
+            catch { }
         }
 
         private void ActualizarGrid()

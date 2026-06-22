@@ -66,15 +66,40 @@ namespace soporte_tecnico.controllers
         {
             try
             {
-                //ruta fija de los clientes
-                string repoFile = Path.Combine("C:", "Soporte Tecnico", "soporte_tecnico", "data", "clientes.json");
+                // Buscar el directorio 'data' subiendo desde el directorio de ejecucion hasta la raiz.
+                string repoFile = null;
+                var start = new DirectoryInfo(AppDomain.CurrentDomain.BaseDirectory);
+                var p = start;
+                string lastFound = null;
+                for (int i = 0; i < 12 && p != null; i++)
+                {
+                    var candidateFile = Path.Combine(p.FullName, "data", "clientes.json");
+                    if (File.Exists(candidateFile))
+                    {
+                        // no romper: preferir la carpeta 'data' más alta en el árbol (más cercana a la raíz del repo)
+                        lastFound = candidateFile;
+                    }
 
-                //asegurar existencia del directorio/archivo, si falta crear archivo vacío
-                var dir = Path.GetDirectoryName(repoFile) ?? AppDomain.CurrentDomain.BaseDirectory;
-                if (!string.IsNullOrEmpty(dir) && !Directory.Exists(dir)) Directory.CreateDirectory(dir);
+                    var candidateDir = Path.Combine(p.FullName, "data");
+                    if (Directory.Exists(candidateDir))
+                    {
+                        // si existe la carpeta data pero no el archivo, considerar la ruta de archivo dentro de ella
+                        var candidate = Path.Combine(candidateDir, "clientes.json");
+                        lastFound = candidate;
+                    }
+
+                    p = p.Parent;
+                }
+
+                // si se encontro alguna 'data' en ancestros, usar la mas alta (lastFound). Si no, usar dataPath.
+                if (!string.IsNullOrEmpty(lastFound)) repoFile = lastFound; else repoFile = dataPath;
+
+                // asegurar que exista el directorio y el archivo; si no, crear archivo vacío
+                var dirRepo = Path.GetDirectoryName(repoFile) ?? AppDomain.CurrentDomain.BaseDirectory;
+                if (!Directory.Exists(dirRepo)) Directory.CreateDirectory(dirRepo);
                 if (!File.Exists(repoFile)) File.WriteAllText(repoFile, "[]");
 
-                //leer y deserializar
+                // leer el contenido y deserializar
                 string json = File.ReadAllText(repoFile);
                 UltimoArchivoCargado = repoFile;
 

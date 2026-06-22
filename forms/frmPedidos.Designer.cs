@@ -49,6 +49,7 @@
             cmbClientes.Name = "cmbClientes";
             cmbClientes.Size = new Size(335, 23);
             cmbClientes.TabIndex = 0;
+            cmbClientes.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // label1
             // 
@@ -66,6 +67,7 @@
             cmbTecnicos.Name = "cmbTecnicos";
             cmbTecnicos.Size = new Size(335, 23);
             cmbTecnicos.TabIndex = 2;
+            cmbTecnicos.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // label2
             // 
@@ -109,6 +111,7 @@
             txtDescripcion.Name = "txtDescripcion";
             txtDescripcion.Size = new Size(335, 196);
             txtDescripcion.TabIndex = 7;
+            txtDescripcion.Anchor = AnchorStyles.Top | AnchorStyles.Left;
             // 
             // dgvPedidos
             // 
@@ -117,6 +120,7 @@
             dgvPedidos.Name = "dgvPedidos";
             dgvPedidos.Size = new Size(417, 366);
             dgvPedidos.TabIndex = 8;
+            dgvPedidos.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
             dgvPedidos.CellContentClick += dgvPedidos_CellContentClick;
             // 
             // btnCambiarEstado
@@ -132,6 +136,7 @@
             btnCambiarEstado.FlatAppearance.BorderSize = 0;
             btnCambiarEstado.Cursor = Cursors.Hand;
             btnCambiarEstado.Click += btnCambiarEstado_Click;
+            btnCambiarEstado.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
             // 
             // btnCrearPedido
             // 
@@ -146,6 +151,7 @@
             btnCrearPedido.FlatAppearance.BorderSize = 0;
             btnCrearPedido.Cursor = Cursors.Hand;
             btnCrearPedido.Click += btnCrearPedido_Click;
+            btnCrearPedido.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             // 
             // frmPedidos
             // 
