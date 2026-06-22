@@ -15,7 +15,8 @@ namespace soporte_tecnico.models
 
         public List<Comentario> Comentarios { get; set; }
         public List<HistorialEstado> HistorialEstados { get; set; }
-        public DateTime? FechaResolucion { get; set; } // Puede ser null hasta que se resuelva
+        public DateTime? FechaResolucion { get; set; }
+
         public PedidoSoporte(int id, Cliente cliente, Tecnico tecnico, string descripcion, DateTime fechaIngreso, Estado estado)
         {
             Id = id;
@@ -24,6 +25,9 @@ namespace soporte_tecnico.models
             Descripcion = descripcion;
             FechaIngreso = fechaIngreso;
             EstadoActual = estado;
+            Comentarios = new List<Comentario>();
+            HistorialEstados = new List<HistorialEstado>();
+            FechaResolucion = null;
         }
     }
 }
